@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hsterms:CollectionResource rdf:about="http://www.hydroshare.org/resource/b6c4fcad40c64c4cb4dd7d4a25d0db6e">
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>Data from the Great Salt Lake and its basin</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:hasPart>Tarboton, D. (2022). Great Salt Lake Basin Digital Elevation Model, HydroShare, http://www.hydroshare.org/resource/e660640a7b084794aa2d70dc77cfa67b</dcterms:hasPart>
+      </rdf:Description>
+    </dc:relation>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2017-04-23T13:34:33.973864+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2022-05-06T13:18:45.178898+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:description>
+        <hsterms:name>David Tarboton</hsterms:name>
+        <hsterms:organization>Utah State University</hsterms:organization>
+        <hsterms:email>dtarb@usu.edu</hsterms:email>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:phone>4357973172</hsterms:phone>
+      </rdf:Description>
+    </dc:creator>
+    <dc:title>Collection of Great Salt Lake Data</dc:title>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/b6c4fcad40c64c4cb4dd7d4a25d0db6e"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>eastlimit=-110.177363517; westlimit=-115.095385715; northlimit=43.4834350009; southlimit=36.8852081972; units=['Decimal degrees']; projection=WGS84 EPSG:4326</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:language>eng</dc:language>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:hasPart>Tarboton, D. (2017). Great Salt Lake Level and Volume, HydroShare, http://www.hydroshare.org/resource/b26090299ec947c692d4ee4651815579</dcterms:hasPart>
+      </rdf:Description>
+    </dc:relation>
+    <dc:subject>GSL</dc:subject>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:hasPart>Tarboton, D. (2017). Great Salt Lake Area Volume Data, HydroShare, http://www.hydroshare.org/resource/89125e9a3af544eab2479b7a974100ba</dcterms:hasPart>
+      </rdf:Description>
+    </dc:relation>
+    <dc:relation>
+      <rdf:Description>
+        <dcterms:hasPart>Tarboton, D. (2017). Great Salt Lake Bathymetry, HydroShare, http://www.hydroshare.org/resource/582060f00f6b443bb26e896426d9f62a</dcterms:hasPart>
+      </rdf:Description>
+    </dc:relation>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CollectionResource">
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+        <rdfs:label>Collection Resource</rdfs:label>
+      </rdf:Description>
+    </dc:type>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+      </rdf:Description>
+    </dc:rights>
+    <dcterms:bibliographicCitation>Tarboton, D. (2022). Collection of Great Salt Lake Data, HydroShare, http://www.hydroshare.org/resource/b6c4fcad40c64c4cb4dd7d4a25d0db6e</dcterms:bibliographicCitation>
+  </hsterms:CollectionResource>
+</rdf:RDF>
