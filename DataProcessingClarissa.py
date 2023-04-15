@@ -5,7 +5,9 @@ import math as m
 """
 IMPORT DATA AND POPULATE INTO DATAFRAMES
    
-format is datetime (month/20/year) and data type
+format is datetime (month/20/year) and data type for monthly,
+        datetime (01/01/year) and data type for annual
+
 
 data to be imported    
     - snow water equivalent (snowpack) [inches]
