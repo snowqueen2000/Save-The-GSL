@@ -119,14 +119,6 @@ def populate_pop_datetime(data, df):
 pop_df = pd.DataFrame(columns=['date','population'])
 pop_df = populate_pop_datetime(pop_growth, pop_df)
 
-
-
-
-
-
-
-
-
 combined = swe_df.merge(lk_lvl_df, on = 'date', how = 'outer')
 combined_nan = combined[combined['lake_level'].isna()]
 combined_even = combined.drop(combined_nan.index)
