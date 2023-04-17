@@ -59,6 +59,7 @@ swe_df = populate_snow_datetime(july_snow, 7, 1981, swe_df)
 swe_df = populate_snow_datetime(august_snow, 8, 1981, swe_df)
 swe_df = populate_snow_datetime(september_snow, 9, 1981, swe_df)
 
+swe_df = swe_df.sort_values(by='date')
 ###   IMPORT LAKE LEVEL DATA 
 lake_level = pd.read_csv('monthly', sep = '\t', comment = '#') 
 
