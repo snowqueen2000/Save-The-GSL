@@ -188,3 +188,4 @@ gdp_annual
 pop_annual
 precip_annual
 lk_lvl_annual 
+swe_annual
